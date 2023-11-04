@@ -32,7 +32,7 @@ Normalizing the data
 Splitting the data into test and train
 
 ## PROGRAM:
-
+```
 Register Number: 212222230036
 Name: Elamaran S E
 
@@ -60,7 +60,7 @@ from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
 df1 = sc.fit_transform(df)
 print(df1)
-
+```
 ## OUTPUT:
 ![279596621-02588e0a-67da-4ef9-9d92-50730ae40863](https://github.com/elamarannn/Ex.No.1---Data-Preprocessing/assets/113497531/09861e9d-ef62-417d-8f00-32b32784d23e)
 
